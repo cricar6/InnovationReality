@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/InnovationReality/static/css/main.b1766830.chunk.css",
-    "main.js": "/InnovationReality/static/js/main.355f8326.chunk.js",
-    "main.js.map": "/InnovationReality/static/js/main.355f8326.chunk.js.map",
+    "main.css": "/InnovationReality/static/css/main.613fbc6b.chunk.css",
+    "main.js": "/InnovationReality/static/js/main.99eae846.chunk.js",
+    "main.js.map": "/InnovationReality/static/js/main.99eae846.chunk.js.map",
     "runtime~main.js": "/InnovationReality/static/js/runtime~main.3169bc8e.js",
     "runtime~main.js.map": "/InnovationReality/static/js/runtime~main.3169bc8e.js.map",
     "static/js/2.c100bb8c.chunk.js": "/InnovationReality/static/js/2.c100bb8c.chunk.js",
     "static/js/2.c100bb8c.chunk.js.map": "/InnovationReality/static/js/2.c100bb8c.chunk.js.map",
     "index.html": "/InnovationReality/index.html",
-    "precache-manifest.d6da7af346c448e731bc3ee9f8f7bb82.js": "/InnovationReality/precache-manifest.d6da7af346c448e731bc3ee9f8f7bb82.js",
+    "precache-manifest.6cd022922c9f520788f3f53c8a1655a9.js": "/InnovationReality/precache-manifest.6cd022922c9f520788f3f53c8a1655a9.js",
     "service-worker.js": "/InnovationReality/service-worker.js",
-    "static/css/main.b1766830.chunk.css.map": "/InnovationReality/static/css/main.b1766830.chunk.css.map"
+    "static/css/main.613fbc6b.chunk.css.map": "/InnovationReality/static/css/main.613fbc6b.chunk.css.map"
   }
 }
