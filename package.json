@@ -1,14 +1,19 @@
 {
   "name": "virtualreality",
-  "homepage":"https://cristian6569.github.io/InnovationReality",
+  "homepage": "https://cristian6569.github.io/InnovationReality/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-firebase/database": "^0.3.10",
+    "firebase": "^6.4.2",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +22,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"

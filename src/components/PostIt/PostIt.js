@@ -1,14 +1,42 @@
-import React, {Component} from 'react';
-import {Link} from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 import "./PostIt.sass";
 
 export class PostIt extends Component {
-    render () {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            text: ''
+        };
+    }
+
+    onChangeText = event => {
+        this.setState({ text: event.target.value });
+    };
+
+    onCreateMessage = event => {
+        this.props.firebase.messages().push({
+            data: this.state.text,
+            autor: "DpK8oHammSjtwk9"
+        });
+        this.setState({ text: '' });
+        event.preventDefault();
+    };
+
+    render() {
+
+        const { text } = this.state;
+
         return <div className="postit">
+
+
+            
             <div className="postit__header">
                     <div className="postit__header__back">
-                    <Link to="/activity">
+                    <Link to="/">
 
                         <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13 3L4 12L13 21" stroke="#C4C4C4" strokeWidth="5" strokeLinecap="round"/>
@@ -78,16 +106,29 @@ export class PostIt extends Component {
                 <p className="postit__container__label">
                     Escribe algo
                 </p>
+                
                 <div className="postit__container__area">
-                    <textarea  maxLength="150" placeholder="Que sea corto. Máximo 150 letras"></textarea>
+                
+                    <form onSubmit={this.onCreateMessage}>
+                        <textarea  
+                            maxLength="150" 
+                            placeholder="Que sea corto. Máximo 150 letras"
+                            value={text}
+                            onChange={this.onChangeText}>
+                        </textarea>
+
+                        <div className="postit__buttons">
+                            <Link to="/">
+                                <p>Cancelar</p>
+                            </Link>
+                            <button>Agregar al tablero</button>
+                        </div>
+                    </form>
+                    
                 </div>
             </div>
-            <div className="postit__buttons">
-                <Link to="/activity">
-                    <p>Cancelar</p>
-                </Link>
-                <button>Agregar al tablero</button>
-            </div>
+
+
         </div>
     }
 }
