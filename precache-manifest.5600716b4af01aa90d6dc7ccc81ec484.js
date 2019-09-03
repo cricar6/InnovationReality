@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "320e8209cce38c73c3d0887ce17fa346",
+    "revision": "1b41377c63a7ea84d4c17fcd93c778ae",
     "url": "/InnovationReality/index.html"
   },
   {
-    "revision": "7ddcda74127bf0fd6079",
+    "revision": "142839c6eaee4b93d5ef",
     "url": "/InnovationReality/static/css/main.6a41d277.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InnovationReality/static/js/2.7ba71355.chunk.js"
   },
   {
-    "revision": "7ddcda74127bf0fd6079",
-    "url": "/InnovationReality/static/js/main.7dec8047.chunk.js"
+    "revision": "142839c6eaee4b93d5ef",
+    "url": "/InnovationReality/static/js/main.f8cda8b0.chunk.js"
   },
   {
     "revision": "81c81a7fb8b035282592",
