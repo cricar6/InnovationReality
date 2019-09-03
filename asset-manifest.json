@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/InnovationReality/static/css/main.6a41d277.chunk.css",
-    "main.js": "/InnovationReality/static/js/main.92c74992.chunk.js",
-    "main.js.map": "/InnovationReality/static/js/main.92c74992.chunk.js.map",
+    "main.js": "/InnovationReality/static/js/main.72c519b6.chunk.js",
+    "main.js.map": "/InnovationReality/static/js/main.72c519b6.chunk.js.map",
     "runtime~main.js": "/InnovationReality/static/js/runtime~main.3169bc8e.js",
     "runtime~main.js.map": "/InnovationReality/static/js/runtime~main.3169bc8e.js.map",
     "static/js/2.7ba71355.chunk.js": "/InnovationReality/static/js/2.7ba71355.chunk.js",
     "static/js/2.7ba71355.chunk.js.map": "/InnovationReality/static/js/2.7ba71355.chunk.js.map",
     "index.html": "/InnovationReality/index.html",
-    "precache-manifest.673d56c429779eff830bf13d1bbc474d.js": "/InnovationReality/precache-manifest.673d56c429779eff830bf13d1bbc474d.js",
+    "precache-manifest.540dcb47214811f7f1905de12014e3a8.js": "/InnovationReality/precache-manifest.540dcb47214811f7f1905de12014e3a8.js",
     "service-worker.js": "/InnovationReality/service-worker.js",
     "static/css/main.6a41d277.chunk.css.map": "/InnovationReality/static/css/main.6a41d277.chunk.css.map"
   }
